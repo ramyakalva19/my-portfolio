@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Body and Header Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+   
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin: 0 1rem;
+  }
+  
+  .nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #ffd700;
+  }
+
+  .login-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .register-btn{
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 2rem;
+    height: 100vh;
+    border: 2px solid;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: #444;
+    color: #fff;
+    padding: 4rem;
+  }
+
+  #about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/039/053/971/small_2x/ai-generated-silhouette-of-a-man-standing-on-top-of-a-mountain-with-his-hands-up-at-sunset-photo.jpg");
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Grid Layout */
+  .project-grid,
+  .blog-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .project-card, .blog-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  footer{
+    background-color: gray;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
